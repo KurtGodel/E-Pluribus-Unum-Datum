@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8" />
+		<title>E Pluribus Unum Datum</title>
+		<script src="javascript.js"></script>
+		<script src="drawer.js"></script>
+		<link rel="stylesheet" type="text/css" href="style.css">
+	</head>
+	<body onload="start();">
+		<center><h2>E Pluribus Unum Datum</h2></center>
+		<canvas id="cvs" width=900px height=600px>
+		</canvas>
+		<div id="menu" class="divMenu">
+			<h3>Input Parameters:</h3>
+			<form id="myForm" onsubmit="//do nothing">
+				<p id="statisticSelect"></p>
+				<p id="summarySelect"></p>
+				<p id="stateSelect"></p>
+				<p id="yearSelect"></p>
+			</form>
+		</div>
+		<div id="divToDownloadCanvas">
+			<a id="linkToDownloadCanvas" href="">open graphic as image</a>
+		</div>
+		<div>
+			<center><h3>Comma Separated Values</h3></center>
+			<textarea id="csv_data">
+				comma separated values go here
+			</textarea>
+		</div>
+	</body>
+</html>

@@ -1,0 +1,10 @@
+stat,minYear,maxYear
+AggravatedAssaultRate.csv,1960,2012
+ForcibleRapeRate.csv,1960,2012
+GDP.csv,1963,2013
+GDPperCapita.csv,1963,2013
+MurderRate.csv,1960,2012
+PersonalIncome.csv,1960,2012
+Population.csv,1929,2014
+PrisonPopulation.csv,1925,2013
+RobberyRate.csv,1960,2012

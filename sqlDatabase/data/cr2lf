@@ -1,0 +1,7 @@
+#!/bin/bash
+# My first script
+
+echo 'tr "\r" "\n" < $1 > $1.tmp'
+tr "\r" "\n" < $1 > $1.tmp
+echo mv $1.tmp $1
+mv $1.tmp $1

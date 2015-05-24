@@ -1,0 +1,30 @@
+body {
+	font-family: Arial;
+}
+
+.divMenu {
+	position:absolute;
+	right:10px;
+	top:100px;
+}
+
+textarea {
+	width:100%;
+	height:100px;
+}
+
+a:link {
+    color: blue;
+}
+
+a:visited {
+    color: blue;
+}
+
+a:hover {
+    color: blue;
+}
+
+a:active {
+    color: blue;
+}

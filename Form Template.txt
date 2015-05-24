@@ -1,0 +1,30 @@
+				<p id="statisticSelect">
+					<select id="statistic" name="statistic" onchange="formChanged();">
+						$$$$$
+					</select>
+				</p>
+				<p id="summarySelect">
+					<input type="radio" id="summary" name="summary" value="state-by-state" onchange="formChanged();">
+					State-by-State
+					<br>
+					<input type="radio" id="summary" name="summary" value="state-specific" onchange="formChanged();">
+					Select a Region
+				</p>
+				<p id="stateSelect">
+					<select id="state" name="state" onchange="formChanged();">
+						$$$$$
+					</select>
+				</p>
+				<p id="yearSelect">
+					<input type="radio" id="year" name="year" value="specificyear"
+						checked="checked" onchange="formChanged();">Year: <input type="text"
+						id="singleyear" name="singleyear" placeholder="{singleyear_hint}"
+						value="2015" maxlength="4" size="4">
+					<br>
+					<input type="radio" id="year" name="year" value="yearrange" onchange="formChanged();">Range:
+					<input type="text" id="startyear" name="startyear" value="1776"
+						placeholder="{startyear_hint}" maxlength="4" size="4" onchange="formChanged();">
+					to
+					<input type="text" id="endyear" name="endyear" value="2015"
+						placeholder="{endyear_hint}" maxlength="4" size="4" onchange="formChanged();">
+				</p>
