@@ -2,7 +2,7 @@
 Project Name: E Pluribus Unum Datum
 Group Members: Ben Wedin & Thomas Redding
 Full URL: http://thacker.mathcs.carleton.edu/cs257/reddingt/cs257_webapp/index.html
-
+Note: The website is no longer online and also consisted of a SQL database
 
 
 
